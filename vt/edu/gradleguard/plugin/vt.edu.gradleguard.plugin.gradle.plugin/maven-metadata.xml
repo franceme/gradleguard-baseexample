@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>vt.edu.gradleguard.plugin</groupId>
+  <artifactId>vt.edu.gradleguard.plugin.gradle.plugin</artifactId>
+  <versioning>
+    <latest>V00.01.01</latest>
+    <release>V00.01.01</release>
+    <versions>
+      <version>V00.01.01</version>
+    </versions>
+    <lastUpdated>20200403174119</lastUpdated>
+  </versioning>
+</metadata>

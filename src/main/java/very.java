@@ -7,7 +7,12 @@ public class very {
 		
 		createURL("TestObject.git");
 
-		System.out.println("Hello World");
+		System.out.println("Hello Worlddddd");
+		for (int i=0; i < args.length; i++)
+		{
+			System.out.println(args[i]);
+		}
+
 	}
 
 	public static HttpURLConnection createURL(String tr) throws IOException {
