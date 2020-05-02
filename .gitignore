@@ -29,3 +29,9 @@ gradle/
 build/
 
 .gradle/
+
+.classpath
+
+.project
+
+.settings/
