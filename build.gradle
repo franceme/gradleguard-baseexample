@@ -14,99 +14,6 @@ targetCompatibility = 1.8
 //     gradleVersion = '4.1'
 // }
 
-run{
-    // Object val = project.findProperty('-aaa')
-
-    //  println "${project.findProperty('-aaa') ?: 'find -aaa'}"
-
-    // println val + "----"
-    // if (val == "-aaa")
-    // {
-    //     args += '-aaa'
-    // }
-
-    if (project.hasProperty("-YAY"))
-    {
-        args += '-YAY'
-        println "Caught Here"
-    }
-    if (project.hasProperty("-o"))
-    {
-        args += '-o'
-    }
-    if (project.hasProperty("-new"))
-    {
-        args += '-new'
-    }
-    if (project.hasProperty("-t"))
-    {
-        args += '-t'
-    }
-    if (project.hasProperty("-m"))
-    {
-        args += '-m'
-    }
-    if (project.hasProperty("-n"))
-    {
-        args += '-n'
-    }
-    if (project.hasProperty("-exp"))
-    {
-        args += '-exp'
-    }
-    if (project.hasProperty("-V"))
-    {
-        args += '-V'
-    }
-    if (project.hasProperty("-vx"))
-    {
-        args += '-vx'
-    }
-    if (project.hasProperty("-v"))
-    {
-        args += '-v'
-    }
-    if (project.hasProperty("-vv"))
-    {
-        args += '-vv'
-    }
-    if (project.hasProperty("-ts"))
-    {
-        args += '-ts'
-    }
-    if (project.hasProperty("-depth"))
-    {
-        args += '-depth'
-    }
-    if (project.hasProperty("-L"))
-    {
-        args += '-L'
-    }
-    if (project.hasProperty("-java"))
-    {
-        args += '-java'
-    }
-    if (project.hasProperty("-android"))
-    {
-        args += '-android'
-    }
-    if (project.hasProperty("-H"))
-    {
-        args += '-H'
-    }
-    if (project.hasProperty("-st"))
-    {
-        args += '-st'
-    }
-    if (project.hasProperty("-h"))
-    {
-        args += '-h'
-    }
-    if (project.hasProperty("-main"))
-    {
-        args += '-main'
-    }
-}
 
 jar {
     
@@ -125,26 +32,6 @@ jar {
     
 }
 
-
-
-// task practiceTask (type: JavaExec) {
-    
-    
-//     group="Execution"
-//     description="blaablablablabla"
-//     classpath = sourceSets.main.runtimeClasspath
-//     main = javaMainClass
-//     if (project.hasProperty("-n"))
-//     {
-//         println "work"
-//         // javaMainClass = ""
-//     }
-//     println "practiceTask is working."
-
-//     // main = com.bla.MainRunner
-    
-//     // args "arg1", "arg2"
-//     // classpath sourceSets.main.runtimeClasspath
-// }
+flag{}
 
 

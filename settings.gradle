@@ -1,7 +1,7 @@
 pluginManagement {
     repositories {
         maven {
-            url = '/home/hanyi/Documents/Baby/gradleguard/build/repo'
+            url = '/home/helen/research/gradleguard/build/repo'
         }
     }
 }
